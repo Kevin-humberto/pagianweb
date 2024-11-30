@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+
+                                    
+                                </table>
+                                
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                <a href="#" id="realizar-compra" class="button u-full-width">Realizar Compra</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!--Home-->
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+
+                    <section>
+                        <div class="homecont grid">
+
+                            <div class="homedata">
+                                <h1 class="homet">DESALINIZADOR <br> SOLAR </h1>
+                                <p class="homedes">
+                                    Convierte agua salada en potable de forma sostenible con nuestro desalinizador
+                                    solar. 🌞💧 Ideal para zonas remotas, utiliza energía solar, sin necesidad de
+                                    electricidad ni químicos. Fácil de usar, económico y ecológico, garantiza acceso a
+                                    agua limpia en cualquier lugar. ¡La solución perfecta para un futuro más verde! 🌍
+                                </p>
+                                <div class="homebut">
+                                    <a href="../proyecto/producto.html" class="button">REGRESAR A LA PAGINA PRINCIPAL</a>
+
+                                </div>
+                            </div>
+                            <div class="homeg">
+                                <img src="img/desalizador-solar (2).png" class="homeimg" alt="">
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Category-->
+        <section class="section category">
+
+            <h2 class="stitle">Las mejores <br> Categorias</h2>
+
+            <div class="catcontainer container grid">
+
+                <div class="catdata">
+                    <img src="img/categoria1.1.png" class="catimg" alt="">
+                    <h3 class="cattitle">Energía Renovable y Sustentable</h3>
+                    <p class="catdes"> Productos ecológicos que aprovechan energía solar para soluciones sostenibles.
+                    </p>
+                </div>
+
+                <div class="catdata">
+                    <img src="img/categoria2.png" class="catimg" alt="">
+                    <h3 class="cattitle">Tratamiento de Agua</h3>
+                    <p class="catdes"> Equipos para purificación y desalinización de agua en hogares, comunidades o
+                        industrias.</p>
+                </div>
+
+                <div class="catdata">
+                    <img src="img/categoria3.png" class="catimg" alt="">
+                    <h3 class="cattitle">Hogar y Exterior</h3>
+                    <p class="catdes"> Herramientas para abastecimiento de agua potable, ideales para uso doméstico,
+                        camping o situaciones de emergencia.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="section about" id="about">
+            <div class="abcontainer container grid">
+                <img src="../PORTADA/imagen/logo.Agua..png" class="aboutimg" alt="">
+                <div class="abdata">
+                    <h2 class="stitle abti">Nosotros <br> Somos</h2>
+                    <p class="abdes"> En TIDE (Innovacion tecnologicas en ingeniería Desaladora), estamos comprometidos
+                        con el desarrollo de soluciones innovadoras para la desalación y el saneamiento. Nos enfocamos
+                        en el ODS N°6: Agua Limpia y Saneamiento para Todos.
+                    </p>
+                    <a href="../sobreNosotros/html/Nosotros.html" class="button">Saber mas sobre nosotros </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <div id="lista-cursos" class="container">
+            <h1 id="encabezado" class="encabezado">Precio de producto</h1>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/Producto1.PNG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Planta purificadora de agua potable </h4>
+                            <p>MRO-1000L/H</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.678,97 <span class="u-pull-right ">$1.817,87 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producto2.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Membrana RO Desalinización de agua de mar</h4>
+                            <p>TF2540-SW</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$167,44 <span class="u-pull-right ">$566,41</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="2">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producot3.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>HYHH, venta directa de fábrica, 20 metros cúbicos por día</h4>
+                            <p>SWIFT-10</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$24.703 <span class="u-pull-right "></span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="3">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producto4.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Completa Mineral planta de tratamiento de agua Ro desalinización Solar</h4>
+                            <p>ro solar desalination</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$3.827,10 <span class="u-pull-right "></span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="4">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producto5.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Diseño de planta de desalinización, desalinización de agua de mar Solar, para el hogar
+                            </h4>
+                            <p>XSTRO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2.736,38 <span class="u-pull-right ">$1.435,16 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="5">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producot6.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Desalinizador de agua solar de 5000LPH</h4>
+                            <p>KYRO-5000</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$9.567,73 <span class="u-pull-right ">$11.002,89 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="6">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producot7.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Máquina de desalinización Solar de agua de mar DC12V DC24V</h4>
+                            <p>SW-VR-300L <br>
+                                SW-VR-500L<br>
+                                SW-VR-1000L </p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$1.800,65 <span class="u-pull-right ">$3.309,48 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="7">Agregar </a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producto8.png " class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>PINFL sal planta de tratamiento de agua Solar desalinización </h4>
+                            <p>ELB-C-1210</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$554,93 <span class="u-pull-right ">$535,80 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="8">Agregar </a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/producto9.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Planta de Tratamiento de Agua Mineral completa, desalinización Solar, Ro</h4>
+                            <p>TS-RO-1000I</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$5.644,97 <span class="u-pull-right ">$5.549,29 </span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="9">Agregar </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="../proyecto/imagen/prototipo.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Desalinizador Solar</h4>
+                        <p></p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$499,99 <span class="u-pull-right ">$399,99 </span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="9">Agregar </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        </div>
+
+  
+
+
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
